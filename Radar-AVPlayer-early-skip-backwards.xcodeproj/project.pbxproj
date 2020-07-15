@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		896DE87A24BF1F9F00BF1608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DE87924BF1F9F00BF1608 /* AppDelegate.swift */; };
+		896DE87C24BF1F9F00BF1608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DE87B24BF1F9F00BF1608 /* ViewController.swift */; };
+		896DE87F24BF1F9F00BF1608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896DE87D24BF1F9F00BF1608 /* Main.storyboard */; };
+		896DE88124BF1FA000BF1608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896DE88024BF1FA000BF1608 /* Assets.xcassets */; };
+		896DE88424BF1FA000BF1608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896DE88224BF1FA000BF1608 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		896DE87624BF1F9F00BF1608 /* Radar-AVPlayer-early-skip-backwards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radar-AVPlayer-early-skip-backwards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		896DE87924BF1F9F00BF1608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		896DE87B24BF1F9F00BF1608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		896DE87E24BF1F9F00BF1608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		896DE88024BF1FA000BF1608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		896DE88324BF1FA000BF1608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		896DE88524BF1FA000BF1608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		896DE87324BF1F9F00BF1608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		896DE86D24BF1F9F00BF1608 = {
+			isa = PBXGroup;
+			children = (
+				896DE87824BF1F9F00BF1608 /* Radar-AVPlayer-early-skip-backwards */,
+				896DE87724BF1F9F00BF1608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		896DE87724BF1F9F00BF1608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				896DE87624BF1F9F00BF1608 /* Radar-AVPlayer-early-skip-backwards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		896DE87824BF1F9F00BF1608 /* Radar-AVPlayer-early-skip-backwards */ = {
+			isa = PBXGroup;
+			children = (
+				896DE87924BF1F9F00BF1608 /* AppDelegate.swift */,
+				896DE87B24BF1F9F00BF1608 /* ViewController.swift */,
+				896DE87D24BF1F9F00BF1608 /* Main.storyboard */,
+				896DE88024BF1FA000BF1608 /* Assets.xcassets */,
+				896DE88224BF1FA000BF1608 /* LaunchScreen.storyboard */,
+				896DE88524BF1FA000BF1608 /* Info.plist */,
+			);
+			path = "Radar-AVPlayer-early-skip-backwards";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		896DE87524BF1F9F00BF1608 /* Radar-AVPlayer-early-skip-backwards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896DE88824BF1FA000BF1608 /* Build configuration list for PBXNativeTarget "Radar-AVPlayer-early-skip-backwards" */;
+			buildPhases = (
+				896DE87224BF1F9F00BF1608 /* Sources */,
+				896DE87324BF1F9F00BF1608 /* Frameworks */,
+				896DE87424BF1F9F00BF1608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Radar-AVPlayer-early-skip-backwards";
+			productName = "Radar-AVPlayer-early-skip-backwards";
+			productReference = 896DE87624BF1F9F00BF1608 /* Radar-AVPlayer-early-skip-backwards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		896DE86E24BF1F9F00BF1608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Vitalij Dadaschjanz";
+				TargetAttributes = {
+					896DE87524BF1F9F00BF1608 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 896DE87124BF1F9F00BF1608 /* Build configuration list for PBXProject "Radar-AVPlayer-early-skip-backwards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 896DE86D24BF1F9F00BF1608;
+			productRefGroup = 896DE87724BF1F9F00BF1608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896DE87524BF1F9F00BF1608 /* Radar-AVPlayer-early-skip-backwards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		896DE87424BF1F9F00BF1608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896DE88424BF1FA000BF1608 /* LaunchScreen.storyboard in Resources */,
+				896DE88124BF1FA000BF1608 /* Assets.xcassets in Resources */,
+				896DE87F24BF1F9F00BF1608 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		896DE87224BF1F9F00BF1608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896DE87C24BF1F9F00BF1608 /* ViewController.swift in Sources */,
+				896DE87A24BF1F9F00BF1608 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		896DE87D24BF1F9F00BF1608 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896DE87E24BF1F9F00BF1608 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		896DE88224BF1FA000BF1608 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896DE88324BF1FA000BF1608 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		896DE88624BF1FA000BF1608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		896DE88724BF1FA000BF1608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		896DE88924BF1FA000BF1608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Radar-AVPlayer-early-skip-backwards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zattoo.Radar-AVPlayer-early-skip-backwards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		896DE88A24BF1FA000BF1608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Radar-AVPlayer-early-skip-backwards/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zattoo.Radar-AVPlayer-early-skip-backwards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		896DE87124BF1F9F00BF1608 /* Build configuration list for PBXProject "Radar-AVPlayer-early-skip-backwards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896DE88624BF1FA000BF1608 /* Debug */,
+				896DE88724BF1FA000BF1608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896DE88824BF1FA000BF1608 /* Build configuration list for PBXNativeTarget "Radar-AVPlayer-early-skip-backwards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896DE88924BF1FA000BF1608 /* Debug */,
+				896DE88A24BF1FA000BF1608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 896DE86E24BF1F9F00BF1608 /* Project object */;
+}
