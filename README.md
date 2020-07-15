@@ -1,6 +1,8 @@
 # Radar-AVPlayer-early-skip-backwards
 Project created to report a bug on making a left-select gesture on the siri remote to jump back 10 seconds in a live stream but then going to the beginning of the stream.
 
+![avplayer-left-click](preview/radar-avplayer-left-click.gif)
+
 # Description
 When an AVPlayer returns the status `.readyToPlay`, a user should be able to make a click on the left side of the siri remote to jump back 10 seconds. Unfortunately it will jump to the beginning of the stream.
 
